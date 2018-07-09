@@ -1,0 +1,81 @@
+npm -v
+5.6.0
+
+npm --version
+5.6.0
+
+**********************************************
+npm
+npm -h
+npm --help
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, doctor, edit,
+    explore, get, help, help-search, i, init, install,
+    install-test, it, link, list, ln, login, logout, ls,
+    outdated, owner, pack, ping, prefix, profile, prune,
+    publish, rb, rebuild, repo, restart, root, run, run-script,
+    s, se, search, set, shrinkwrap, star, stars, start, stop, t,
+    team, test, token, tst, un, uninstall, unpublish, unstar,
+    up, update, v, version, view, whoami
+
+npm <command> -h     quick help on <command>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\ronan\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@5.6.0 C:\Program Files\nodejs\node_modules\npm
+*******************************************************
+npm init
+
+npm get init-author-name
+
+npm i lodash --save
+
+No need to source control node_modules folder.
+"npm install" will get any dependencies in the app.
+
+Install more than 1 module as a development dependency.
+npm install gulp gulp-sass --save-dev
+
+npm i --production (Won't install development dependencies, only production)
+
+npm uninstall gulp-sass --save-dev
+npm un
+npm remove
+npm rm
+
+npm rm lodash --save
+npm i lodash@4.17.3 --save
+npm update lodash
+
+npm i -g nodemon
+npm root -g // Display path to global modules
+nodemon
+npm remove -g nodemon
+
+
+npm i -g live-server
+// Loads the directory and files if no html file is present.
+
+npm list
+npm list --dept 0
+npm list --dept 1
+
+npm remove gulp --save
+
+"scripts": { "start": "node index" }
+npm start    
+
+npm remove live-server -g
+npm install --save-dev live-server
+"scripts": { "server": "live-server" }
+
