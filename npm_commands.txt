@@ -78,4 +78,5 @@ npm start
 npm remove live-server -g
 npm install --save-dev live-server
 "scripts": { "server": "live-server" }
+npm run server
 
